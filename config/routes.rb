@@ -1,4 +1,11 @@
 HtmlHometask::Application.routes.draw do
+  get "hometask/index"
+
+  get "hometask/h-work1"
+
+  get "hometask/h-work2"
+
+  match '/index' => 'homework#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
