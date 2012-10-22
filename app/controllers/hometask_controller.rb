@@ -2,9 +2,9 @@ class HometaskController < ApplicationController
   def index
   end
 
-  def h-work1
+  def homework1
   end
 
-  def h-work2
+  def homework2
   end
 end
